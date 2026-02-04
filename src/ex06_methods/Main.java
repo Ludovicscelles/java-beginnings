@@ -13,24 +13,24 @@ public class Main {
     System.out.println("Le nombre 8 est-il pair ? " + isEven(8));
   }
 
-  static int addition(int a, int b) {
+  public static int addition(int a, int b) {
       return a + b;
   }
 
-  static int multiplication(int a, int b) {
+  public static int multiplication(int a, int b) {
     return a * b;
   }
 
-  static int multiplyThree(int a, int b, int c) {
+   public static int multiplyThree(int a, int b, int c) {
     return a * b * c;
   }
 
-  static int max(int a, int b) {
+  public static int max(int a, int b) {
     return a > b ? a : b ; 
   }
 
 
-  static boolean isEven(int n){
+  public static boolean isEven(int n){
     return n % 2 == 0;
   }
 
